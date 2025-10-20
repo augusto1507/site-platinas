@@ -1,40 +1,54 @@
-.navbar{
+.navbar {
     display: inline-block;
     padding: 10px;
     text-decoration: none;
     color: #fff;
-    
+
 }
 
-.navbar:hover{
+.navbar:hover {
     color: #40e0d0;
 }
 
-.divnavbar{
+.divnavbar {
     text-align: center;
 }
 
-div{
+div {
     background-color: #44444e;
 }
 
-body{
+body {
     background-color: #37353E;
     padding: 0;
     margin: 0;
 }
 
-h1{
-    color:#0c81e9 ;
+h1 {
+    color: #0c81e9;
     text-align: center;
 }
 
-.logo{
+.logo {
     width: 45px;
     margin: 10px;
     display: inline-block
 }
 
-h2{
+h2 {
     color: #fff;
+}
+
+.fontenav {
+    font-family: "Iceland", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.fonte {
+    font-family: "Iceland", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
 }

@@ -1,32 +1,27 @@
-.navbar {
+.navbar{
     display: inline-block;
     padding: 10px;
     text-decoration: none;
     color: #fff;
-
+    
 }
 
-.navbar:hover {
+.navbar:hover{
     color: #40e0d0;
 }
 
-.divnavbar {
+.divnavbar{
     text-align: center;
+}
+
+div{
     background-color: #44444e;
 }
 
-.login {
-    border: 8px #000 solid;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 220px;
-    height: 200px;
-    margin: 6px;
-    padding: 8px;
-    margin-left: 630px;
-    border-radius: 50px;
-    background-color: #44444e;
+body{
+    background-color: #37353E;
+    padding: 0;
+    margin: 0;
 }
 
 .divlogo{
@@ -39,22 +34,17 @@
     display: inline-block
 }
 
-body {
-    background-color: #37353E;
-    padding: 0;
-    margin: 0;
+h1{
+    color: #fff;
+    text-align: center;
 }
 
-h1 {
-    color: #0c81e9;
-    text-align: center;
-
+h2{
+    color: #fff;
 }
 
-div {
+div{
     text-align: center;
-
-
 }
 
 button {
@@ -71,6 +61,21 @@ input {
 }
 
 label{
-    color: #0c81e9;
+    color: #fff;
     size: 20px;
+    display: block;
+}
+
+.login {
+    border: 8px #000 solid;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 220px;
+    height: 400px;
+    margin: 6px;
+    padding: 8px;
+    margin-left: 630px;
+    border-radius: 50px;
+    background-color: #44444e;
 }
