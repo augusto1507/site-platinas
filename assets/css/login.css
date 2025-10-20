@@ -1,0 +1,76 @@
+.navbar {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.navbar:hover {
+    color: #40e0d0;
+}
+
+.divnavbar {
+    text-align: center;
+    background-color: #44444e;
+}
+
+.login {
+    border: 8px #000 solid;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 220px;
+    height: 200px;
+    margin: 6px;
+    padding: 8px;
+    margin-left: 650px;
+    border-radius: 50px;
+    background-color: #44444e;
+}
+
+.divlogo{
+    background-color: #44444e;
+}
+
+.logo{
+    width: 45px;
+    margin: 10px;
+    display: inline-block
+}
+
+body {
+    background-color: #37353E;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: #0c81e9;
+    text-align: center;
+
+}
+
+div {
+    text-align: center;
+
+
+}
+
+button {
+    background-color: #0c81e9;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+}
+
+input {
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+label{
+    color: #0c81e9;
+    size: 20px;
+}

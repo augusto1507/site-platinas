@@ -1,30 +1,43 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/login.css">
 </head>
+
 <body>
-    <a href="index.html">Voltar</a>
-    <a href="cadastrar.html">Não tenho conta</a>
+     <div class="divlogo">
+        <img class="logo" src="assets/images/favicon.ico" alt="logo do site">
+        <h2 class="logo">PL Games</h2>
+    </div>
+
+    <div class="divnavbar">
+        <a class="navbar" href="index.html">Voltar</a>
+        <a class="navbar" href="cadastrar.html">Não tenho conta</a>
+    </div>
 
     <h1>Login</h1>
+    <div class="login">
+        <form method="get">
+            <div>
+                <label for="campo-email-login">E-mail</label>
+                <input type="text" name="email" id="campo-email-login" placeholder="Digite seu E-mail" required>
+            </div>
 
-    <form method="get">
-        <div>
-            <label for="campo-email-login">E-mail</label>
-            <input type="text" name="email" id="campo-email-login" placeholder="Digite seu E-mail" required>
-        </div>
-
-        <div>
-            <label for="campo-senha-login">Senha</label>
-            <input type="text" name="senha" id="campo-senha-login" placeholder="Digite sua senha" required>
-        </div>
-
-        <button type="submit">Logar</button>
+            <div>
+                <label for="campo-senha-login">Senha</label>
+                <input type="text" name="senha" id="campo-senha-login" placeholder="Digite sua senha" required>
+            </div>
+            <div>
+                <button type="submit">Logar</button>
+            </div>
+    </div>
     </form>
-    
+
 </body>
+
 </html>
